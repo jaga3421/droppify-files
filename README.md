@@ -1,9 +1,12 @@
 # droppify-files
 
 A micro utility file to convert an empty div into an drag and drop file uploader
+Here is a[ demo](https://jaga3421.github.io/droppify-files/)
 
 ### How to use
 1. Add the script file in your application
+```<script src="https://jaga3421.github.io/droppify-files/droppify.js"></script>```
+
 2. Add a markup in your HTML/template file
 
 ```<div class="dnd"></div>```

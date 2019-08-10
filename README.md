@@ -7,6 +7,7 @@ A micro utility file to convert an empty div into an drag and drop file uploader
 2. Add a markup in your HTML/template file
 
 ```<div class="dnd"></div>```
+
 3. Initialize the util with this code
 
 ```DNDfy.init()```

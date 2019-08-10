@@ -99,7 +99,7 @@
             dndBox.addEventListener('drop', dropped);
             details.addEventListener('click', removeEntry);
             form.addEventListener('submit', submitForm);
-            input.addEventListener('onchange',dropeed.bind(this,e))
+            input.addEventListener('onchange',dropped.bind(this,e))
 
             function preventDefaults(e) {
                 e.preventDefault()

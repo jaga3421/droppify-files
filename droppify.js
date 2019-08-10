@@ -32,6 +32,7 @@
         // variables - to be used within
         let fileMap = new Map(),
             form,
+            input,
             details,
             submitBtn,
             summary,
@@ -47,7 +48,7 @@
             form = document.createElement('form');
             form.setAttribute('id', 'dragDrop');
 
-            let input = document.createElement('input');
+            input = document.createElement('input');
             setAttributes(input, {
                 id: 'fileUploadInp',
                 type: 'file',
@@ -98,6 +99,7 @@
             dndBox.addEventListener('drop', dropped);
             details.addEventListener('click', removeEntry);
             form.addEventListener('submit', submitForm);
+            input.addEventListener('onchange',dropeed.bind(this,e))
 
             function preventDefaults(e) {
                 e.preventDefault()

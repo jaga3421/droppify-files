@@ -27,7 +27,7 @@
             selector = '.dnd',
             promptText = 'Click or Drop your Files here',
             activeClass = 'dragActive',
-            acceptedFiles = []
+            acceptedFiles = ['mp3','mp4','jpg']
         } = options;
         // variables - to be used within
         let fileMap = new Map(),

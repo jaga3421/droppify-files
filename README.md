@@ -11,11 +11,10 @@ A micro utility file to convert an empty div into an drag and drop file uploader
 	
 ### Options
 
-Initialization of the util can be done with custom options (default values are shown) ```javascript
-DNDfy.init({
+Initialization of the util can be done with custom options (default values are shown)
+`DNDfy.init({
 	selector = '.dnd',
 	promptText = 'Click or Drop your Files here', 
 	activeClass = 'dragActive', 
 	acceptedFiles = ['mp3','mp4','jpg'] 
-});
-```
+});`

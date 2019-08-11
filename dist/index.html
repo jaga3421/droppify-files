@@ -13,22 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
     <title>droppify demo</title>
-    <script src="src/droppify.js"></script>
+    <script src="/droppify.cfdaba59.js"></script>
 </head>
 
 <body>
     <div class="dropHere"></div>
-    <script>
-        (function () {
-            let options = {
-                selector: '.dropHere',
-                promptText: 'Drop your files here.',
-                activeClass: 'dragActive',
-                acceptedFiles: ['mp3', 'mp4', 'jpg', 'jpeg', 'pdf']
-            }
-            DNDfy.init(options)
-        }())
-    </script>
+    <script>(function () {
+  var options = {
+    selector: '.dropHere',
+    promptText: 'Drop your files here.',
+    activeClass: 'dragActive',
+    acceptedFiles: ['mp3', 'mp4', 'jpg', 'jpeg', 'pdf']
+  };
+  DNDfy.init(options);
+})();</script>
 </body>
 
 </html>

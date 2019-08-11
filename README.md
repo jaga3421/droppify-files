@@ -3,7 +3,7 @@
 A micro utility file to convert an empty div into an drag and drop file uploader
 Here is a[ demo](https://jaga3421.github.io/droppify-files/)
 
-### How to use
+### How to use in application
 1. Add the script file in your application
 
 ```<script src="https://jaga3421.github.io/droppify-files/droppify.js"></script>```
@@ -27,4 +27,20 @@ DNDfy.init({
 	activeClass = 'dragActive', 
 	acceptedFiles = ['mp3','mp4','jpg'] 
 });
+```
+### For Developers
+Bundling is done using parcel. Feel free to fork this Repository and contribute.
+
+To Run the repo on local server.
+
+```
+git clone https://github.com/jaga3421/droppify-files.git
+npm install
+parcel index.html
+```
+
+To build the files
+
+```
+parcel build src/droppify.js
 ```
